@@ -14,3 +14,23 @@ DPDK is a set of libraries and drivers that enable fast packet processing on Int
 eBPF is a programmable framework within the Linux kernel that allows for the dynamic analysis and modification of network packets. It has gained popularity for its flexibility and performance when it comes to implementing networking functions. With eBPF, routing functionalities can be implemented directly within the kernel, providing granular control and efficient packet processing. Projects like Cilium leverage eBPF to implement routing and security features in containerized environments.
 
 Each of these implementation approaches brings unique features and benefits. The kernel network stack offers comprehensive routing capabilities, while fd.io VPP and DPDK provide high-performance data plane processing. eBPF brings programmability and flexibility to routing within the kernel. Customers can choose the approach that best fits their requirements, leveraging popular software implementations like Quagga, BIRD, FRRouting, OVS-DPDK, and Cilium to build robust and efficient routing solutions.
+
+## References
+### Kernel Network Stack:
+Linux Kernel - https://www.kernel.org/
+FRRouting - https://frrouting.org/
+Quagga Routing Suite - http://www.nongnu.org/quagga/
+
+### fd.io VPP (Vector Packet Processing):
+fd.io VPP - https://fd.io/
+Honeycomb - https://wiki.fd.io/view/Honeycomb
+
+### DPDK (Data Plane Development Kit):
+DPDK - https://www.dpdk.org/
+FRRouting - https://frrouting.org/
+BIRD (Border Gateway Protocol) - https://bird.network.cz/
+
+### eBPF (Extended Berkeley Packet Filter):
+Cilium - https://cilium.io/
+eBPF - https://ebpf.io/
+Calico - https://www.projectcalico.org/
