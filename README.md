@@ -1,5 +1,4 @@
 # Routing the network traffic
-
 Routing is a fundamental networking function that involves the forwarding of data packets from source to destination across networks. It plays a crucial role in determining the optimal path for packet delivery, ensuring efficient and reliable communication. There are various implementation approaches for routing, including those based on the Linux kernel network stack, fd.io VPP, DPDK, and eBPF.
 
 ## Kernel Network Stack:
